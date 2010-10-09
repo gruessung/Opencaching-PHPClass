@@ -8,3 +8,136 @@ Opencaching.de PHPClass
 ** License: http://creativecommons.org/licenses/by-sa/3.0/de/
 ** Danke an OC für den Service.
 *********************/
+
+Useing:
+
+<?php
+$opencaching = new Opencaching('OCB0E9');  // Opencaching.de Waypoint
+$Cache = $opencaching->getCacheInformation();
+?>
+
+$Cache = Array, example:
+
+<----------------
+
+Array
+(
+    [id] => SimpleXMLElement Object
+        (
+            [0] => 148383
+        )
+
+    [wp] => OCB0E9
+    [coord] => Array
+        (
+            [lat] => SimpleXMLElement Object
+                (
+                    [0] => 50.91155
+                )
+
+            [lon] => SimpleXMLElement Object
+                (
+                    [0] => 10.92552
+                )
+
+        )
+
+    [time] => SimpleXMLElement Object
+        (
+            [0] => 2010-03-16T00:00:00Z
+        )
+
+    [url] => SimpleXMLElement Object
+        (
+            [0] => http://www.opencaching.de/viewcache.php?cacheid=148383
+        )
+
+    [name] => SimpleXMLElement Object
+        (
+            [0] => Vogelkunde
+        )
+
+    [type] => SimpleXMLElement Object
+        (
+            [0] => Traditional Cache
+        )
+
+    [status] => SimpleXMLElement Object
+        (
+            [0] => Available
+        )
+
+    [owner] => SimpleXMLElement Object
+        (
+            [@attributes] => Array
+                (
+                    [userid] => 166660
+                )
+
+            [0] => solar22
+        )
+
+    [state] => ThÃ¼ringen
+    [country] => DE
+    [container] => SimpleXMLElement Object
+        (
+            [0] => Micro
+        )
+
+    [difficulty] => SimpleXMLElement Object
+        (
+            [0] => 2
+        )
+
+    [terrain] => SimpleXMLElement Object
+        (
+            [0] => 2
+        )
+
+    [desc] => SimpleXMLElement Object
+        (
+            [@attributes] => Array
+                (
+                    [html] => true
+                )
+
+            [0] => 
+
+                        
+                        Dieser Cache führt euch in ein Vogelschutzgebiet.
+
+                        
+                    
+
+                    
+                    
+
+                    
+
+                        
+                        Nachdem ich nun ein paar Caches gefunden habe, werde ich nun meinen
+ersten eigenen Cache veröffentlichen.
+
+Dieser Cache führt euch in ein Vogelschutzgebiet, tut aus dem Grund
+bitte auch keinen Unrat dort hinterlassen und genießt das
+zwitschern der Vögel.
+
+Achtet darauf, das Ihr soweit es geht die Wege nutzt.
+Ich wünsche viel Spaß.
+
+Logbar auf geocaching.com 
+
+
+                        
+                    
+
+        )
+
+    [hint] => SimpleXMLElement Object
+        (
+            [0] => Stumpf neben Baum
+        )
+
+)
+
+<------------------------
